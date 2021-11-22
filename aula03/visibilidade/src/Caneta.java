@@ -5,14 +5,14 @@ public class Caneta {
     protected int carga;
     protected boolean tampada;
 
-    void status() {
+    public void status() {
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Ponta: " + this.ponta);
         System.out.println("Carga: " + this.carga);
         System.out.println("Tampada: " + this.tampada);
     }
 
-    private void rabiscar() {
+    public void rabiscar() {
         if (this.tampada) {
             System.out.println("Erro! Não posso rabiscar!");
         } else {
